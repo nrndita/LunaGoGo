@@ -1,0 +1,335 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		login_page
+	 *	@date 		Saturday 02nd of September 2023 12:48:25 PM
+	 *	@title 		Page 3
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/login_page" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_login_page_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__login_page_ek2"
+					android:background="@drawable/_bg__login_page_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="736dp" />
+
+
+				<RelativeLayout android:id="@+id/panah"
+					android:layout_marginTop="44dp"
+					android:layout_marginStart="41.92dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector"
+						android:src="@drawable/vector"
+						android:contentDescription="vector"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="18.64dp"
+						android:layout_height="14.19dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/kotak_kuning"
+					android:layout_marginTop="97dp"
+					android:layout_marginStart="39dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ktk_kuning"
+						android:background="@drawable/ktk_kuning_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="336dp"
+						android:layout_height="517dp" />
+
+					<TextView android:id="@+id/username"
+						android:fontFamily="@font/monserratbold"
+						android:textStyle="bold"
+						android:textSize="10sp"
+						android:textColor="@color/username_color"
+						android:layout_marginLeft="37dp"
+						android:layout_marginTop="110dp"
+						android:layout_width="88.5dp"
+						android:layout_height="25.88dp"
+						android:text="@string/username_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/kotak_email"
+					android:layout_marginTop="166dp"
+					android:layout_marginStart="73dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/kotak_email_ek1"
+						android:background="@drawable/kotak_email_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="274dp"
+						android:layout_height="30dp" />
+
+					<TextView android:id="@+id/urmail_gmail_com"
+						android:fontFamily="@font/monserratbold"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="11sp"
+						android:textColor="@color/username_color"
+						android:layout_marginLeft="11dp"
+						android:layout_marginTop="9dp"
+						android:layout_width="116dp"
+						android:layout_height="20.5dp"
+						android:text="@string/urmail_gmail_com_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/kotak_username"
+					android:layout_marginTop="238dp"
+					android:layout_marginStart="73dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/kotak_user"
+						android:background="@drawable/kotak_user_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="274dp"
+						android:layout_height="30dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/forget_password_"
+					android:fontFamily="@font/montserratlight"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="230dp"
+					android:layout_marginTop="346dp"
+					android:layout_width="150dp"
+					android:layout_height="19dp"
+					android:text="@string/forget_password__string"
+					 />
+
+				<TextView android:id="@+id/user_me"
+					android:fontFamily="@font/monserratbold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="11sp"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="84dp"
+					android:layout_marginTop="247dp"
+					android:layout_width="59dp"
+					android:layout_height="20.5dp"
+					android:text="@string/user_me_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/kotak_password"
+					android:layout_marginTop="309dp"
+					android:layout_marginStart="73dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ktk_pass"
+						android:background="@drawable/ktk_pass_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="274dp"
+						android:layout_height="30dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/password"
+					android:fontFamily="@font/monserratbold"
+					android:textStyle="bold"
+					android:textSize="13sp"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="76dp"
+					android:layout_marginTop="288dp"
+					android:layout_width="85.5dp"
+					android:layout_height="25.5dp"
+					android:text="@string/password_string"
+					 />
+
+				<TextView android:id="@+id/______________"
+					android:fontFamily="@font/monserratbold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="11sp"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="84dp"
+					android:layout_marginTop="322dp"
+					android:layout_width="68dp"
+					android:layout_height="20.5dp"
+					android:text="@string/_______________string"
+					 />
+
+				<ImageView android:id="@+id/vector_ek1"
+					android:src="@drawable/vector_ek1"
+					android:contentDescription="vector_ek1"
+					 android:layout_marginStart="314dp"
+					android:layout_marginTop="322dp"
+					android:layout_width="13dp"
+					android:layout_height="8dp" />
+
+
+				<RelativeLayout android:id="@+id/kotak_sign_up"
+					android:layout_marginTop="389dp"
+					android:layout_marginStart="136dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/kotak_sign_up_1"
+						android:background="@drawable/kotak_sign_up_1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="142dp"
+						android:layout_height="37dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/sign_up"
+					android:fontFamily="@font/monserratbold"
+					android:textStyle="bold"
+					android:textSize="13sp"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="181dp"
+					android:layout_marginTop="398dp"
+					android:layout_width="76.5dp"
+					android:layout_height="19.5dp"
+					android:text="@string/sign_up_string"
+					 />
+
+				<TextView android:id="@+id/or"
+					android:fontFamily="@font/monserratbold"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="13sp"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="176dp"
+					android:layout_marginTop="443dp"
+					android:layout_width="70dp"
+					android:layout_height="19.5dp"
+					android:text="@string/or_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/notice"
+					android:layout_marginTop="476dp"
+					android:layout_marginStart="107dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/already_have_an_account__"
+						android:fontFamily="@font/monserratbold"
+						android:textStyle="bold"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="11sp"
+						android:textColor="@color/already_have_an_account___color"
+						android:layout_marginLeft="-2dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="163dp"
+						android:layout_height="20.5dp"
+						android:text="@string/already_have_an_account___string"
+						 />
+
+					<TextView android:id="@+id/sign_in"
+						android:fontFamily="@font/monserratbold"
+						android:textStyle="bold"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="11sp"
+						android:textColor="@color/sign_in_color"
+						android:layout_marginLeft="151dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="55dp"
+						android:layout_height="20.5dp"
+						android:text="@string/sign_in_string"
+						 />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/email"
+					android:fontFamily="@font/monserratbold"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="13sp"
+					android:textColor="@color/username_color"
+					android:layout_marginLeft="74dp"
+					android:layout_marginTop="144dp"
+					android:layout_width="51dp"
+					android:layout_height="25.5dp"
+					android:text="@string/email_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/gambar_wanita"
+					android:layout_marginTop="514dp"
+					android:layout_marginStart="158dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_1"
+						android:background="@drawable/ellipse_1_shape"
+						 android:layout_marginStart="11dp"
+						android:layout_marginTop="186dp"
+						android:layout_width="205.47dp"
+						android:layout_height="18.48dp" />
+
+					<ImageView android:id="@+id/_30_removebg_preview_1"
+						android:src="@drawable/_30_removebg_preview_1"
+						android:contentDescription="_30_removebg_preview_1"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="240dp"
+						android:layout_height="199dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

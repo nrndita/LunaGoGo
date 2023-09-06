@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- iphone_8_plus___1 strings -->
+
+	<string name="app_name">Page 2</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="lunagogo__string">LunaGoGo!</string>
+	<string name="get_started_lunagogo__string">get started LunaGoGo!</string>
+	<string name="don_t_have_an_account_yet__string">dont have an account yet.</string>
+
+	<string name="app_name">Page 3</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="username_string">Username</string>
+	<string name="urmail_gmail_com_string"><u>urmail@gmail.com</u></string>
+	<string name="forget_password__string">Forget Password?</string>
+	<string name="user_me_string">user_me</string>
+	<string name="password_string">Password</string>
+	<string name="_______________string">*************</string>
+	<string name="sign_up_string">Sign Up</string>
+	<string name="or_string">or</string>
+	<string name="already_have_an_account___string">Already have an account ?</string>
+	<string name="sign_in_string"> Sign In</string>
+	<string name="email_string">Email</string>
+</resources>
